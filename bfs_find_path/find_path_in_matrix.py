@@ -133,3 +133,4 @@ if __name__ == '__main__':
     solve(starting_row, starting_col, ending_row, ending_col)
     path = deconstruct(starting_row, starting_col, ending_row, ending_col)
     pr_print_matrix(matrix, path)
+    
