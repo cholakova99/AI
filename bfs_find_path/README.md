@@ -27,11 +27,11 @@ k = 7
 1 1 0 0 * 1 1  
 1 1 1 1 1 1 1  
 
-Arguments:
-** N **  
-** k **  
-** starting row, starting col, ending row, ending col **  
-** path to the file (not requied) **  
-Example:
-> python find_path_in_matrix.py 7 7 0 0 5 4 matrix_for_exr_zero.txt
-> python find_path_in_matrix.py 7 7 0 0 5 4 
+Arguments:  
+__ N __    
+__ k __  
+__ starting row, starting col, ending row, ending col __  
+__ path to the file (not requied) __  
+Example:  
+> python find_path_in_matrix.py 7 7 0 0 5 4 matrix_for_exr_zero.txt  
+> python find_path_in_matrix.py 7 7 0 0 5 4   
