@@ -66,7 +66,6 @@ def randomize_matrix(matrix, diff_value, n):
 ##############################################
 def explore_neighbours(r, c):
     for i in range(0, 4):
-        global nodes_in_next_layer
         rr = r + direction_row[i]
         cc = c + direction_col[i]
         if rr < 0 or cc < 0 or rr >= N or cc >= N:
@@ -115,6 +114,8 @@ def solve(starting_row, starting_col, ending_row, ending_col):
 if __name__ == '__main__':
     if len(sys.argv) < 7:
         sys.exit("Too few arguments!")
+    if len(sys.argv) > 8:
+        sys.exit("Too many arguments!")
     N = int(sys.argv[1])
     k = int(sys.argv[2])
     visited = create_matrix(N, N, 0)
