@@ -28,10 +28,10 @@ k = 7
 1 1 1 1 1 1 1  
 
 Arguments:  
-__ N __    
-__ k __  
-__ starting row, starting col, ending row, ending col __  
-__ path to the file (not requied) __  
+__N__    
+__k__  
+__starting row, starting col, ending row, ending col__  
+__path to the file (not requied)__  
 Example:  
 > python find_path_in_matrix.py 7 7 0 0 5 4 matrix_for_exr_zero.txt  
 > python find_path_in_matrix.py 7 7 0 0 5 4   
